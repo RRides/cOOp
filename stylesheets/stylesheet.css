@@ -14,7 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, picture {
 	padding: 0;
 	margin: 0;
 	font: inherit;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, picture {
 	display: block;
 }
 body {
@@ -57,11 +57,12 @@ body {
 }
 
 a {
-  color: #d5000d;
+  color: #0000FF;
 }
 a:hover {
   color: #c5000c;
 }
+
 
 header {
   padding-top: 35px;
@@ -82,6 +83,21 @@ header h2 {
   line-height: 1.3;
   color: #aaa;
   letter-spacing: -1px;
+}
+
+picture {
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+picture h1
+{
+  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 48px; font-weight: 900;
+  line-height: 1.2;
+  color: #303030;
+  letter-spacing: -1px;
+	text-align: center;
 }
 
 #container {
@@ -296,7 +312,7 @@ blockquote {
 
 ul li {
   list-style-position: inside;
-  list-style: disc;
+  list-style: none;
   padding-left: 20px;
 }
 
